@@ -7,6 +7,18 @@
 
 ---
 
+## 法律风险
+
+刷入修改版固件会使**保修失效**，并可能触及 EULA 与反规避条款。
+本项目刻意避开了「分发密钥」与「分发成品固件」这两条风险最高的路径。
+
+详细说明（含美国 DMCA §1201、欧盟软件指令、日本与中国相关规定）见
+**[docs/legal.md](docs/legal.md)**。
+
+> 该文档为一般性信息，不构成法律意见。
+
+---
+
 ## 效果
 
 | 场景 | 结果 |
@@ -126,11 +138,10 @@ EG 虚拟地址   0x43FB8000 – 0x44009480
 - [XinmiaoZhao/Z8QemuBoard](https://github.com/XinmiaoZhao/Z8QemuBoard) — 功能更全的 Z8 板模型
 - [WonderLantern/wonder-lantern-z30](https://github.com/WonderLantern/wonder-lantern-z30) — Z30 的 SD 卡自定义快门声实现（不同思路）
 
-特别感谢 **S3**（Z9 侧研究者）提供的资源长度与 kind 分派线索——
-本项目最关键的一步（从"按静音切段"转向"kind 体系"）来自他的提示，
-包括 Z9 侧的 kind 分派表、长度跳表位置与 cap 机制说明。
-
-> 注：仅署名，未附主页链接——GitHub 上的 `s3` 账号与此无关。
+特别感谢 **S3**（[@s3lemming](https://github.com/s3lemming)，Z9 侧研究者）提供的
+资源长度与 kind 分派线索——本项目最关键的一步（从"按静音切段"转向"kind 体系"）
+来自他的提示，包括 Z9 侧的 kind 分派表、长度跳表位置与 cap 机制说明。
+若无这些线索，我们很可能仍卡在"逐段试听猜边界"的阶段。
 
 ---
 
