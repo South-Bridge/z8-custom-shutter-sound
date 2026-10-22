@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 South-Bridge
+Copyright (c) 2026 Z8 Custom Shutter Sound contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+NOTICE
+
+This repository contains analysis notes and tooling only. It does NOT contain
+any Nikon firmware, firmware images, firmware-derived data, camera card images,
+or audio assets. Users must supply their own legally obtained firmware.
+
+Nikon and Z8 are trademarks of Nikon Corporation. This project is not
+affiliated with, endorsed by, or supported by Nikon Corporation.
+
+Modifying camera firmware carries risk (bricking, loss of warranty). Use at
+your own risk.
