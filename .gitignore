@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.bin
+*.bi
+*.wav
+*.m4a
+eg*.bin
